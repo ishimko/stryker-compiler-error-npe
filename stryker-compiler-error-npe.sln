@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderTest", "UnderTest\UnderTest.csproj", "{AB6B55DC-AD74-4357-BF31-7C0DF49C22DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderTest.Tests", "UnderTest.Tests\UnderTest.Tests.csproj", "{1C15415D-734B-4B6E-89DF-0F596C658247}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB6B55DC-AD74-4357-BF31-7C0DF49C22DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB6B55DC-AD74-4357-BF31-7C0DF49C22DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB6B55DC-AD74-4357-BF31-7C0DF49C22DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB6B55DC-AD74-4357-BF31-7C0DF49C22DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C15415D-734B-4B6E-89DF-0F596C658247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C15415D-734B-4B6E-89DF-0F596C658247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C15415D-734B-4B6E-89DF-0F596C658247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C15415D-734B-4B6E-89DF-0F596C658247}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

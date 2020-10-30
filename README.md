@@ -1,8 +1,20 @@
 1. Clone the repo and checkout `master`.
-2. `cd UnderTest.Tests`
-3. `dotnet stryker --dashboard-compare --dashboard-version master --dashboard-fallback-version fake-fallback`
-4. `git checkout another-branch`
-5. `dotnet stryker --dashboard-compare --dashboard-version another-branch --dashboard-fallback-version dashboard-compare/master`
+2. 
+```
+cd UnderTest.Tests
+````
+3. 
+```
+dotnet stryker --dashboard-compare --dashboard-version master --dashboard-fallback-version fake-fallback
+```
+4. 
+```
+git checkout another-branch
+```
+5. 
+```
+dotnet stryker --dashboard-compare --dashboard-version another-branch --dashboard-fallback-version dashboard-compare/master
+```
 6. Observe exception
 ```
 System.ArgumentNullException: Value cannot be null. (Parameter 'source')
